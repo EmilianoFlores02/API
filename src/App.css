@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+
+.App-header {
+  background-color: #ab8d46;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.Buscador{
+  display: flex;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto; /* centra horizontalmente */
+}
+
+.Lista{
+  display: flex;
+  flex-direction: column;
+}
+
+.Lista-contenido{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Lista-gato{
+  margin: 1vw;
+  width: 20vw;
+  min-width: 200px;
+  max-width: 300px;
+  border: 1px solid #ffdd87;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.Lista-gato:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}

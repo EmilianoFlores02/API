@@ -4,53 +4,45 @@ Una aplicación web interactiva desarrollada con React que permite a los usuario
 
 ---
 
-## 📋 Información del Proyecto
+## Información del Proyecto
 
-**Nombre del Estudiante:** [Tu Nombre]  
-**Institución:** [Nombre de tu Institución]  
-**Clase:** [Nombre de la Clase]  
-**Fecha:** [Fecha]
+**Nombre del Autor:** Emiliano Rafael Flores Ramírez
+**Número de Control:** 20212404
+**Institución:** Instituto Tecnológico de Tijuana 
+**Clase:** Desarrollo de Aplicaciones Móviles  
+**Fecha:** 01/12/2025
 
 ---
 
-## 📖 Introducción
+## Introducción
 
-Random Cats es una aplicación web moderna y responsiva que utiliza React y The Cat API para proporcionar una experiencia interactiva de exploración de imágenes de gatos. La aplicación permite a los usuarios:
+Random Cats es una aplicación web moderna y responsiva que utiliza React y The Cat API para alegrar tu día con imágenes de gatos :) 
+
+La aplicación permite a los usuarios:
 
 - Visualizar imágenes aleatorias de gatos al cargar la página
-- Buscar imágenes por raza específica de gato
-- Ver información detallada sobre las razas de gatos
-- Abrir imágenes en tamaño completo en una nueva pestaña
-- Disfrutar de una interfaz intuitiva y atractiva
+- Buscar imágenes de una raza específica
+- Ver información sobre las razas de gatos
+- Abrir imágenes en una nueva pestaña
+- Disfrutar de una interfaz sencilla y fluida
 
-Esta aplicación demuestra el uso de React Hooks, manejo de estado, consumo de APIs REST, y componentes modulares para crear una experiencia de usuario fluida y moderna.
-
----
-
-## ✨ Características
-
-- 🐱 **Imágenes Aleatorias**: Muestra 10 imágenes aleatorias de gatos al cargar la aplicación
-- 🔍 **Búsqueda por Raza**: Permite buscar gatos por raza específica (Persian, Siamese, Maine Coon, etc.)
-- 📝 **Información de Razas**: Muestra descripción detallada de la raza cuando se realiza una búsqueda
-- 🖼️ **Vista Ampliada**: Al hacer clic en una imagen, se abre un modal con la imagen en tamaño completo
-- 🔗 **Abrir en Nueva Pestaña**: Opción para abrir la imagen original en una nueva pestaña del navegador
-- 🎨 **Diseño Responsivo**: Interfaz adaptada para diferentes tamaños de pantalla
-- ⚡ **Efectos Hover**: Animaciones suaves al pasar el mouse sobre las imágenes
+Esta aplicación demuestra el uso de React, states, uso de APIs, y componentes, creando una experiencia fluida para el usuario.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Características
 
-- **React 19.1.1** - Biblioteca de JavaScript para construir interfaces de usuario
-- **Vite 7.1.7** - Herramienta de construcción y desarrollo rápida
-- **React Bootstrap 2.10.10** - Componentes de Bootstrap para React
-- **Bootstrap 5.3.8** - Framework CSS para diseño responsivo
-- **The Cat API** - API REST para obtener imágenes e información de gatos
-- **JavaScript ES6+** - Lenguaje de programación moderno
+- **Imágenes Aleatorias**: Muestra 10 imágenes aleatorias de gatos al cargar la aplicación
+- **Búsqueda por Raza**: Permite buscar gatos por raza específica (Persian, Siamese, Maine Coon, etc.)
+- **Información de Razas**: Muestra descripción detallada de la raza cuando se realiza una búsqueda
+- **Vista Ampliada**: Al hacer clic en una imagen, se abre un modal con la imagen en tamaño completo
+- **Abrir en Nueva Pestaña**: Opción para abrir la imagen original en una nueva pestaña del navegador
+- **Diseño Responsivo**: Interfaz adaptada para diferentes tamaños de pantalla
+- **Efectos Hover**: Animaciones suaves al pasar el mouse sobre las imágenes
 
 ---
 
-## 📦 Instalación
+## Instalación
 
 ### Prerrequisitos
 
@@ -66,7 +58,7 @@ git clone [URL de tu repositorio]
 
 2. Navega al directorio del proyecto:
 ```bash
-cd example17
+cd API
 ```
 
 3. Instala las dependencias:
@@ -88,12 +80,12 @@ npm run dev
 
 ---
 
-## 💻 Descripción del Código
+## Descripción del Código
 
 ### Estructura del Proyecto
 
 ```
-example17/
+API/
 ├── src/
 │   ├── Components/
 │   │   ├── Buscador.jsx      # Componente de búsqueda
@@ -166,108 +158,42 @@ Componente simple que muestra el título "RANDOM CATS"
 
 ---
 
-## 🎯 Uso de la Aplicación
+## Uso de la Aplicación
 
 1. **Ver Gatos Aleatorios**: Al cargar la aplicación, se muestran automáticamente 10 imágenes aleatorias de gatos.
+
+<img width="1895" height="858" alt="image" src="https://github.com/user-attachments/assets/9d047817-fe40-45d0-93bb-7a46d4aba8db" />
 
 2. **Buscar por Raza**: 
    - Escribe el nombre de una raza en el buscador (ej: "Persian", "Siamese", "Maine Coon")
    - La aplicación buscará y mostrará imágenes de esa raza específica
    - Se mostrará la descripción de la raza debajo del título de resultados
 
+<img width="1919" height="822" alt="image" src="https://github.com/user-attachments/assets/5198c611-3187-477c-bdff-08af262d51a9" />
+
 3. **Ver Imagen Ampliada**:
    - Haz clic en cualquier imagen para abrirla en un modal
    - En el modal puedes cerrar o abrir la imagen en una nueva pestaña
 
+<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/4d1e854e-ff08-4472-85ed-59b1341ec90c" />
+
 4. **Efectos Interactivos**:
    - Pasa el mouse sobre las imágenes para ver el efecto de resaltado
 
----
-
-## 📸 Capturas de Pantalla
-
-### [Agrega aquí tus capturas de pantalla]
-
-**Ejemplo de estructura:**
-
-```
-### Vista Principal - Gatos Aleatorios
-![Vista Principal](screenshots/main-view.png)
-
-### Búsqueda por Raza
-![Búsqueda](screenshots/search-view.png)
-
-### Modal de Imagen
-![Modal](screenshots/modal-view.png)
-```
-
-**Instrucciones para agregar capturas:**
-1. Crea una carpeta `screenshots` en la raíz del proyecto
-2. Guarda tus capturas de pantalla con nombres descriptivos
-3. Reemplaza los ejemplos anteriores con tus propias imágenes usando la sintaxis markdown: `![Descripción](ruta/imagen.png)`
+<img width="770" height="370" alt="image" src="https://github.com/user-attachments/assets/815904bc-4803-4030-b4c1-e19920a35151" />
 
 ---
 
-## 🎓 Conclusión del Proyecto
+## Conclusión del Proyecto
 
-[Escribe aquí tu conclusión personal sobre el proyecto. Puedes incluir:]
+Con el desarrollo de este proyecto pude practicar la implementación de una API en el entorno de REACT y esto me permitió tener un mejor entendimiento de estas aplicaciones web.
 
-- Lo que aprendiste durante el desarrollo
-- Desafíos que enfrentaste y cómo los resolviste
-- Mejoras futuras que te gustaría implementar
-- Reflexiones sobre el uso de React y APIs
-- Experiencia general con el proyecto
+El desarrollar aplicaciones web me resultó complicado, pero con practica se pueden superar los retos que aparecen en el desarrollo. En este proyecto el principal reto fue el manejo de componentes con funciones de imagen, ya que no lo había implementadoo previamente en un programa.
 
-**Ejemplo de estructura:**
-
-```
-Este proyecto me permitió profundizar en el uso de React Hooks, especialmente useState y useEffect, 
-y entender mejor cómo consumir APIs REST en aplicaciones React. 
-
-Los principales desafíos fueron:
-- Manejar el estado asíncrono de las peticiones HTTP
-- Optimizar la experiencia del usuario durante las búsquedas
-- Implementar un diseño responsivo y atractivo
-
-Mejoras futuras que consideraría:
-- Agregar un sistema de favoritos
-- Implementar paginación para mostrar más resultados
-- Agregar filtros adicionales (tamaño, tipo de imagen, etc.)
-
-En general, fue una experiencia muy enriquecedora que me ayudó a consolidar mis conocimientos 
-en desarrollo web con React.
-```
+En general, a través de este proyecto pude mejorar mi entendimiento de las aplicaciones de REACT y la implementación de APIs gracias a los conocimientos previos adquiridos en esta clase.
 
 ---
 
-## 📝 Notas Adicionales
-
-- La aplicación requiere una conexión a internet para funcionar correctamente
-- La API de The Cat API tiene límites de uso según el plan (gratuito tiene límites razonables)
-- Las imágenes se obtienen en tiempo real desde The Cat API
-
----
-
-## 📄 Licencia
+## Licencia
 
 Este proyecto es de uso educativo y fue desarrollado como parte de un curso académico.
-
----
-
-## 🙏 Agradecimientos
-
-- [The Cat API](https://thecatapi.com/) por proporcionar la API gratuita
-- React y la comunidad de desarrolladores por las herramientas y recursos disponibles
-- Bootstrap por los componentes y estilos predefinidos
-
----
-
-## 📧 Contacto
-
-Para preguntas o comentarios sobre este proyecto, puedes contactarme en:
-- Email: [tu-email@ejemplo.com]
-- GitHub: [tu-usuario-github]
-
----
-
-**Desarrollado con ❤️ usando React**
